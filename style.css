@@ -60,7 +60,7 @@ nav {
 }
 
 .hero-description {
-    color: #0D1321;
+    color: rgba(75, 74, 74, 0.5);
 }
 
 .hero-button button {
@@ -257,13 +257,13 @@ iframe {
 }
 .texts{
     width: 570px;
-    /* margin: 5px; */
+    margin-bottom: 3px;
     display: flex;
     flex-direction: column;
     gap: 2px;
 }
 a{
-    color: black;
+    color: rgb(0 0 0 / 69%);
 
 }
 .first{
@@ -301,6 +301,7 @@ input[type="submit" i]{
 .b1{
     /* border: 2px solid black; */
     width: 55%;
+    border-radius: 5px;
     margin: 0 auto;
     background-image: linear-gradient(rgba(212, 216, 223, 0.562), rgba(240, 240, 240, 0.829));
 }
