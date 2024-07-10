@@ -1,4 +1,6 @@
-
+*{
+font-family: Azeret Mono;
+}
 
 nav{
     display: flex;
@@ -18,7 +20,7 @@ nav{
     background-size: cover;
     height: 512px;
     width: 100vw;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 .hero{
     margin: 30px auto 40px;
@@ -58,34 +60,61 @@ nav{
 .section-1{
     width: 940px;
     height: 1395px;
-    border:2px solid red;
-    margin: 5px auto 10px;
-    background-color: #0d132110;
+    /* border:2px solid red; */
+    border-radius: 10px;
+    margin:0px auto 10px;
+
+    /* background-color: #0d132110; */
+}
+.sec-heading{
+    padding-top: 20px;
 }
 .sec1-box{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin:60px;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(156, 165, 185, 0.123),rgb(199, 202, 209));
 }
 
 /* sec-a(insede the first section) style */
 .sec-a{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
-    padding:39px;
+    align-items: center;
+    /* padding:10px; */
     margin: 10px;
     height: 230px;
-    box-sizing: border-box;
+
+    /* box-sizing: border-box; */
 }
 .a-1{
-    background-color: #ffffff56;
+    /* background-color: #ffffff56; */
+    background-image: linear-gradient(to right, rgb(254 254 254 / 82%), rgb(193 193 221 / 2%));
     width: 370px;
     height:200px;
     border-radius: 9px;
-    
+    margin-top: 10px;  
 }
-.sec-des{
-    padding: 7px;
-    
-
+.b1{
+    background-image: linear-gradient(to left, rgb(254 254 254 / 82%), rgb(193 193 221 / 2%));
+}
+.content{
+    padding: 7px 9px 15px 19px;
+}
+.sec-btn{
+/* background-color: blue; */
+padding: 8px 10px;
+margin-top: 4px;
+font-weight: 700;
+}
+.sec-img{
+    margin-top: 5px;
+    width: 240px;
+    height: 205px;
+    padding-top: 10px;
+}
+.b{
+    display: flex;
+    flex-direction: row-reverse;
 }
