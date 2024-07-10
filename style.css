@@ -59,31 +59,36 @@ nav{
 /* section style */
 .section-1{
     width: 940px;
-    height: 1395px;
-    /* border:2px solid red; */
+    height:900px;
+    border:2px solid red;
     border-radius: 10px;
     margin:0px auto 10px;
-
+    opacity: 0.8;
     /* background-color: #0d132110; */
 }
 .sec-heading{
     padding-top: 20px;
 }
 .sec1-box{
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     margin:60px;
     border-radius: 20px;
-    background-image: linear-gradient(rgba(156, 165, 185, 0.123),rgb(199, 202, 209));
+    background-image: linear-gradient(rgba(212, 216, 223, 0.788),rgb(240, 240, 240));
 }
-
+.sec-inbox{
+    /* border: 2px solid yellow; */
+    width:80%;
+    margin: 0 auto;
+}
 /* sec-a(insede the first section) style */
+
 .sec-a{
     /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* padding:10px; */
-    margin: 10px;
+    /* margin: 10px; */
     height: 230px;
 
     /* box-sizing: border-box; */
@@ -117,4 +122,78 @@ font-weight: 700;
 .b{
     display: flex;
     flex-direction: row-reverse;
+}
+/* section-2 style  */
+.sec-child{
+    width: 940px;
+    height: 550px;
+    border:2px solid red;
+    border-radius: 10px;
+    margin:0px auto 10px;
+    opacity: 0.8;
+    /* background-color: #0d132110; */
+}
+.sec-content{
+    width: 662px;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+
+.youtube{
+    border: 2px solid rgba(75, 74, 74, 0.5);
+    width: 80%;
+    border-radius: 10px;
+    margin: auto;
+}
+iframe{
+    margin: 10px auto;
+    padding: 12px; 
+}
+/* section-3 styles */
+.sec-container{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 210px;
+    /* width: 80%; */
+}
+.flx{
+    /* border: 2px solid black; */
+    /* margin-left: 10px;
+    margin-top: 30px; */
+   
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 220px;
+}
+.contenet-sec3{
+    /* border:2px solid green; */
+    margin:15px auto;
+    padding: 20px;
+    
+    border-radius: 10px;
+    background-color:rgb(255 240 242 / 70%);
+}
+.sec3a{
+    background-color: rgb(214 242 253 / 28%);
+     
+}
+.h5{
+    font-size: 15px;
+    font-weight: 600;
+    /* margin: 15px; */
+    margin-top: 2px;
+    margin-bottom: 2px;
+    
+}
+.p-small{
+    font-size: 12px;
+    margin: 2px;
+}
+.small{
+    height: 40px;
+    
 }
