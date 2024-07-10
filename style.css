@@ -22,7 +22,7 @@ nav {
 
 
 .banner {
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(./assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 512px;
@@ -267,7 +267,7 @@ a{
 
 }
 .first{
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(./assets/handshake.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
